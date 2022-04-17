@@ -25,9 +25,9 @@ async function main(){
 
     //await page.click('.login-link');
 
-    await page.$eval('input[name="username"]', el => el.value = 'Magic_hach');
+    await page.$eval('input[name="username"]', el => el.value = '');
     await sleep(2000);
-    await page.$eval('input[name="password"]', el => el.value = 'wwsedrf123');
+    await page.$eval('input[name="password"]', el => el.value = '');
     await sleep(2000);
     await page.click('input.button');
     await sleep(2000);
